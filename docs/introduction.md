@@ -1,7 +1,3 @@
----
-icon: '1'
----
-
 # Introduction
 
 **Proxmox VE** est une **solution de virtualisation open source** de type **bare-metal**, développée par **Proxmox Server Solutions GmbH**. Elle repose sur l’hyperviseur **KVM (Kernel-based Virtual Machine)** pour la virtualisation complète, et sur **LXC (Linux Containers)** pour la virtualisation légère.
