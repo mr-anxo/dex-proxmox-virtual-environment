@@ -1,5 +1,6 @@
 # Table of contents
 
-* [Proxmox Virtual Environment](README.md)
-* [01 Introduction](01-introduction.md)
-* [02 Installation](02-installation.md)
+* [Introduction](README.md)
+* [Présentation](presentation.md)
+* [Installation](installation.md)
+* [Configuration](configuration.md)
