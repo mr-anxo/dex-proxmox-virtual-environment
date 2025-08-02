@@ -52,6 +52,10 @@ Avant de déployer Proxmox VE, il est recommandé d’avoir les éléments suiva
 
 ***
 
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><i class="fa-rocket-launch">:rocket-launch:</i>  <strong>Démarrage rapide</strong></td><td>Mettez en place votre premier serveur Proxmox VE</td><td></td><td><a href="demarrage-rapide.md">demarrage-rapide.md</a></td></tr><tr><td><i class="fa-presentation-screen">:presentation-screen:</i>  <strong>Présentation</strong></td><td>Découvrez Proxmox VE et ses composantes</td><td></td><td><a href="pour-commencer/presentation.md">presentation.md</a></td></tr><tr><td><i class="fa-download">:download:</i>   <strong>Installation</strong></td><td>Installer Proxmox VE dans votre environnement</td><td></td><td><a href="pour-commencer/installation.md">installation.md</a></td></tr></tbody></table>
 
+
+
+***
 
 `#ProxmoxVE` `#Virtualisation` `#Infrastructure` `#KVM` `#LXC` `#Cluster` `#Sauvegarde` `#Réseau`
