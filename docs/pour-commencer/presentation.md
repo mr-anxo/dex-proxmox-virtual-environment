@@ -10,15 +10,15 @@ Distribuée sous **licence AGPLv3**, Proxmox VE est libre d’utilisation et pro
 
 ***
 
-## 1.1. Structure d'un hôte Proxmox VE
+## 3.1. Structure d'un hôte Proxmox VE
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 Les **outils utilisateurs** sont utilisés pour piloter manuellement les VMs, conteneurs, clusters, stockage, pare-feu, etc... tandis que les **services** automatisent les actions système, fournissent l'interface graphique, assurent le fonctionnement du cluster, le monitoring et la haute disponibilité.
 
-### 1.1.1. Outils utilisateurs (User Tools)
+### 3.1.1. Outils utilisateurs (User Tools)
 
 Ces outils en ligne de commande permettent aux administrateurs de gérer efficacement l’infrastructure Proxmox :
 
@@ -31,7 +31,7 @@ Ces outils en ligne de commande permettent aux administrateurs de gérer efficac
 * **ha-manager** : Gestion de la haute disponibilité (HA). Supervise les ressources critiques et leur redémarrage automatique en cas de panne de nœud.
 * **pve-firewall** : Outil de gestion du pare-feu intégré. Permet de définir des règles de filtrage au niveau hôte, VM ou container.
 
-### 1.1.2. Services Proxmox (Services)
+### 3.1.2. Services Proxmox (Services)
 
 Ces services tournent en arrière-plan pour faire fonctionner correctement l’écosystème Proxmox :
 
@@ -43,7 +43,7 @@ Ces services tournent en arrière-plan pour faire fonctionner correctement l’�
 
 ***
 
-## 1.2. Fonctionnalités principales de Proxmox VE
+## 3.2. Fonctionnalités principales de Proxmox VE
 
 ### 1.2.1. Interface de d'administration centralisée&#x20;
 
@@ -59,7 +59,7 @@ Proxmox VE est conçu pour évoluer d’un simple nœud à un **cluster haute di
     * **Rôles et permissions (ACL)** : définissez des rôles avec des privilèges spécifiques, puis assignez-les à des utilisateurs ou groupes sur des objets précis.
     * **Réalms d’authentification multiples** : support de l’authentification locale, LDAP, Active Directory, Linux PAM ou via le serveur interne Proxmox.
 
-### 1.2.2. Stockage et clustering
+### 3.2.2. Stockage et clustering
 
 Le modèle de stockage Proxmox est extrêmement **modulaire et évolutif. V**ous pouvez combiner autant de stockages que nécessaire, qu'ils soient locaux ou partagés.
 
@@ -69,7 +69,7 @@ Le modèle de stockage Proxmox est extrêmement **modulaire et évolutif. V**ous
 
 > La prise en charge du stockage partagé permet notamment la **migration à chaud** de VMs entre nœuds, sans interruption
 
-### 1.2.3. Sauvegarde et restauration intégrées
+### 3.2.3. Sauvegarde et restauration intégrées
 
 L’outil de sauvegarde intégré **vzdump** permet de **créer des snapshots cohérents** de VMs ou conteneurs, même à chaud.
 
@@ -77,13 +77,13 @@ L’outil de sauvegarde intégré **vzdump** permet de **créer des snapshots co
 * Nouveau format optimisé pour une écriture rapide, peu d’E/S, et support des fichiers creux (sparse)
 * Peut être planifié et intégré au cluster ou au **Proxmox Backup Server** pour de la déduplication et des backups incrémentaux
 
-### 1.2.4. Réseau virtualisé avancé
+### 3.2.4. Réseau virtualisé avancé
 
 Proxmox adopte un **modèle réseau en pont (bridge)** à la fois simple et flexible, dans lequel les interfaces réseau des machines virtuelles (VM) et des conteneurs (CT) sont connectées à des interfaces bridge, eux-mêmes reliés aux interfaces physiques du serveur hôte. Ce modèle permet : la **prise en charge complète des VLAN (802.1q)**, facilitant la segmentation réseau, ainsi que la **gestion de l’agrégation de liens (bonding)** pour une meilleure résilience et bande passante.
 
 D'autre part, on a le **SDN (Software Defined Networking)** intégré depuis la version 8.1  qui  permet la gestion de réseaux virtuels complexes via l’interface web
 
-### 1.2.5. Infrastructure hyper-convergée (HCI)
+### 3.2.5. Infrastructure hyper-convergée (HCI)
 
 Proxmox VE est une plateforme **hyper-convergée open source**, combinant calcul, stockage, réseau, sauvegarde et haute disponibilité dans une seule interface idéale pour les environnements distribués, bureaux distants ou clouds privés.
 
@@ -97,7 +97,7 @@ Proxmox VE est une plateforme **hyper-convergée open source**, combinant calcul
 
 ***
 
-## 1.3. Communauté & support
+## 3.3. Communauté & support
 
 * [📘 Wiki officiel](https://pve.proxmox.com/wiki/Main_Page)
 * [💬 Forum communautaire](https://forum.proxmox.com/)

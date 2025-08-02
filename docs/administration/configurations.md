@@ -2,5 +2,5 @@
 icon: gear-complex
 ---
 
-# Configuration
+# Configurations
 
